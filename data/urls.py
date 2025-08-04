@@ -1,3 +1,8 @@
-LOGIN_URL = 'https://foodgram-frontend-1.prakticum-team.ru/signin'
-CREATE_ACCOUNT_URL = 'https://foodgram-frontend-1.prakticum-team.ru/signup'
-RECIPES_URL = 'https://foodgram-frontend-1.prakticum-team.ru/recipes'
+BASE_URL = 'https://foodgram-frontend-1.prakticum-team.ru/'
+SIGN_IN = 'signin'
+SIGN_UP = 'signup'
+RECEIPES = 'receipes'
+
+LOGIN_URL = BASE_URL + SIGN_IN
+CREATE_ACCOUNT_URL = BASE_URL + SIGN_UP
+RECIPES_URL = BASE_URL + RECEIPES
